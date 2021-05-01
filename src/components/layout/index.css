@@ -1,0 +1,91 @@
+.Card {
+  flex: 1;
+  margin: 50px;
+  overflow: hidden;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+
+  padding: 10px;
+}
+
+.menu {
+  background-color: #87CEEB;
+  min-width: 300px;
+  padding: 10px;
+  list-style: none;
+  text-align: center;
+  width: 100vw;
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+
+.menu-item{
+  display : inline-block;
+  margin: 15px 25px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  height: 100vh;
+}
+
+img{
+  border-radius: 50%;
+}
+
+body{
+  background: url('../../images/bluebackground.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-size: 20px;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.trip-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 10px 30px;
+  text-align: center;
+  height: 100%;
+}
+
+.pictures{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.pictures img{
+  border-radius: 0%;
+}
+
+.about-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 10px 30px;
+  text-align: center;
+  height: 100%;
+}
